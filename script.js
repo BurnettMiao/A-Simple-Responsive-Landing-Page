@@ -35,6 +35,18 @@ ScrollReveal().reveal('.about__card', {
   interval: 500,
 });
 
+// portfolio container
+ScrollReveal().reveal('.portfolio__card', {
+  ...scrollRevealOption,
+  interval: 500,
+});
+
+// news container
+ScrollReveal().reveal('.news__card', {
+  ...scrollRevealOption,
+  interval: 500,
+});
+
 // client section
 const swiper = new Swiper('.swiper', {
   loop: true,
